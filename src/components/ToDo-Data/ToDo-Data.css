@@ -1,0 +1,30 @@
+.main-ToDo {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 3px;
+    font-size: 21px;
+}
+
+.created-tasks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    justify-content: flex-start;
+    width: 172.5px;
+    border-radius: 3px;
+    box-shadow: 0 0 7.5px 0 #C6C6C6;
+    padding: 22.5px 22.5px;
+}
+
+.completed-tasks {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: end;
+    width: 172.5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 #C6C6C6;
+    padding: 22.5px 22.5px;
+
+}

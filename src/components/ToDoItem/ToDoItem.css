@@ -1,0 +1,16 @@
+.to-do-item {
+    width: 423px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 0 #C6C6C6;
+    padding: 13.5px 13.5px;
+}
+.to-do-content.checked {
+    color: gray;
+    font-weight: 100;
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+    text-decoration-color: gray;
+}
